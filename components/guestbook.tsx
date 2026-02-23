@@ -124,7 +124,7 @@ export function Guestbook() {
     <section id="guestbook" className="scroll-mt-20">
       {/* Section heading */}
       <div className="flex items-center gap-3 mb-8">
-        <span className="font-mono text-sm text-primary">03.</span>
+        <span className="font-mono text-sm text-primary">04.</span>
         <h2 className="text-xl font-bold text-heading md:text-2xl whitespace-nowrap">
           Guestbook
         </h2>

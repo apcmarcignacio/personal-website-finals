@@ -3,6 +3,7 @@ import { ProfileTabs } from "@/components/profile-tabs";
 import { TechStack } from "@/components/tech-stack";
 import { Guestbook } from "@/components/guestbook";
 import { SiteFooter } from "@/components/site-footer";
+import { Gallery } from "@/components/gallery";
 
 export default function Home() {
   return (
@@ -21,6 +22,9 @@ export default function Home() {
             <a href="#guestbook" className="font-mono text-xs text-muted-foreground transition-colors duration-200 hover:text-primary">
               <span className="text-primary">03. </span>Guestbook
             </a>
+            <a href="#gallery" className="font-mono text-xs text-muted-foreground transition-colors duration-200 hover:text-primary">
+              <span className="text-primary">04. </span>Gallery
+            </a>
           </div>
         </div>
       </nav>
@@ -35,6 +39,7 @@ export default function Home() {
         <div className="flex flex-col gap-20 pb-20 md:gap-28 md:pb-28">
           <ProfileTabs />
           <TechStack />
+          <Gallery />
           <Guestbook />
         </div>
       </div>
