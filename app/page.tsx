@@ -19,11 +19,11 @@ export default function Home() {
             <a href="#skills" className="font-mono text-xs text-muted-foreground transition-colors duration-200 hover:text-primary">
               <span className="text-primary">02. </span>Skills
             </a>
-            <a href="#guestbook" className="font-mono text-xs text-muted-foreground transition-colors duration-200 hover:text-primary">
-              <span className="text-primary">04. </span>Guestbook
-            </a>
             <a href="#gallery" className="font-mono text-xs text-muted-foreground transition-colors duration-200 hover:text-primary">
               <span className="text-primary">03. </span>Gallery
+            </a>
+            <a href="#guestbook" className="font-mono text-xs text-muted-foreground transition-colors duration-200 hover:text-primary">
+              <span className="text-primary">04. </span>Guestbook
             </a>
           </div>
         </div>
