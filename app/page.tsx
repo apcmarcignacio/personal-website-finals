@@ -20,10 +20,10 @@ export default function Home() {
               <span className="text-primary">02. </span>Skills
             </a>
             <a href="#guestbook" className="font-mono text-xs text-muted-foreground transition-colors duration-200 hover:text-primary">
-              <span className="text-primary">03. </span>Guestbook
+              <span className="text-primary">04. </span>Guestbook
             </a>
             <a href="#gallery" className="font-mono text-xs text-muted-foreground transition-colors duration-200 hover:text-primary">
-              <span className="text-primary">04. </span>Gallery
+              <span className="text-primary">03. </span>Gallery
             </a>
           </div>
         </div>
