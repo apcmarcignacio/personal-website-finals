@@ -11,12 +11,12 @@ interface GalleryImage {
 }
 
 const images: GalleryImage[] = [
-  { src: "/gallery/photo-1.jpg", alt: "Gallery photo 1", caption: "Replace with your photo" },
-  { src: "/gallery/photo-2.jpg", alt: "Gallery photo 2", caption: "Replace with your photo" },
-  { src: "/gallery/photo-3.jpg", alt: "Gallery photo 3", caption: "Replace with your photo" },
-  { src: "/gallery/photo-4.jpg", alt: "Gallery photo 4", caption: "Replace with your photo" },
-  { src: "/gallery/photo-5.jpg", alt: "Gallery photo 5", caption: "Replace with your photo" },
-  { src: "/gallery/photo-6.jpg", alt: "Gallery photo 6", caption: "Replace with your photo" },
+  { src: "/gallery/photo-1.jpg", alt: "Gallery photo 1", caption: "1st Photo" },
+  { src: "/gallery/photo-2.jpg", alt: "Gallery photo 2", caption: "2nd Photo" },
+  { src: "/gallery/photo-3.jpg", alt: "Gallery photo 3", caption: "3rd Photo" },
+  { src: "/gallery/photo-4.jpg", alt: "Gallery photo 4", caption: "4th Photo" },
+  { src: "/gallery/photo-5.jpg", alt: "Gallery photo 5", caption: "5th Photo" },
+  { src: "/gallery/photo-6.jpg", alt: "Gallery photo 6", caption: "6th Photo" },
 ];
 
 export function Gallery() {
